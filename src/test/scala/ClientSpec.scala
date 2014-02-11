@@ -4,8 +4,10 @@ import org.specs2.mutable._
 import scala.concurrent.Await
 import scala.concurrent.duration._
 import wabisabi._
+import org.junit.runner._
+import org.specs2.runner._
 
-class ClientSpec extends Specification {
+class ClientSpec extends SpecificationWithJUnit {
 
   sequential
 
